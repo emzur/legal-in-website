@@ -1,0 +1,349 @@
+{
+  "nav": {
+    "home": "Strona Główna",
+    "about": "O Nas",
+    "services": "Usługi",
+    "clients": "Dla Kogo Pracujemy",
+    "benefits": "Korzyści",
+    "testimonials": "Opinie",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "privacyPolicy": "Polityka Prywatności"
+  },
+  "logo": "Legal In",
+  "mobileMenu": {
+    "open": "Otwórz menu",
+    "close": "Zamknij menu"
+  },
+  "footer": {
+    "aboutTitle": "Legal In",
+    "aboutText": "Eksperci w księgowości i kadrach – mówimy językiem liczb i przepisów. Zaufaj profesjonalistom i skup się na rozwoju swojego biznesu.",
+    "quickLinksTitle": "Szybkie Linki",
+    "contactTitle": "Kontakt",
+    "socialTitle": "Znajdź Nas",
+    "facebookAria": "Legal In na Facebooku",
+    "copyright": "{{year}} Legal In. Wszelkie prawa zastrzeżone.",
+    "contactInfo": {
+      "address": "pl. Walerego Wróblewskiego 3a, lok.7, 50-413 Wroclaw",
+      "phone": "+48 730 946 161",
+      "email": "legal.in@wp.pl",
+      "openingHours": "Poniedziałek - Piątek: 9:00 - 17:00"
+    }
+  },
+  "pageTitle": {
+    "defaultSubtitle": "Profesjonalne usługi dla Twojej firmy"
+  },
+  "homePage": {
+    "hero": {
+      "title": "Legal In: Eksperci w Księgowości i Kadrach dla Twojego Biznesu",
+      "subtitle": "Skup się na rozwoju firmy, my zadbamy o resztę. Profesjonalne usługi księgowe i kadrowe, które rozumieją Twój biznes.",
+      "ctaServices": "Poznaj Nasze Usługi",
+      "ctaContact": "Skontaktuj się z Nami"
+    },
+    "shortAbout": {
+      "title": "Kim Jesteśmy?",
+      "text": "Jesteśmy zespołem doświadczonych księgowych i specjalistów ds. kadr, gotowych wspierać rozwój Twojej firmy. Od czerwca 2021 roku pomagamy przedsiębiorcom z Wrocławia i okolic w prowadzeniu działalności zgodnie z przepisami.",
+      "ctaMore": "Dowiedz się więcej o Legal In"
+    },
+    "featuredServices": {
+      "title": "Kluczowe Usługi",
+      "ctaAll": "Zobacz Wszystkie Usługi"
+    },
+    "whyChooseUs": {
+      "title": "Dlaczego Legal In?",
+      "item1Title": "Ekspertyza i Profesjonalizm",
+      "item1Text": "„Mówimy językiem liczb i przepisów.” Nasz doświadczony zespół gwarantuje najwyższą jakość usług.",
+      "item2Title": "Indywidualne Podejście",
+      "item2Text": "„Księgowość i kadry, które rozumieją Twój biznes.” Dopasowujemy rozwiązania do Twoich unikalnych potrzeb.",
+      "item3Title": "Spokój i Bezpieczeństwo",
+      "item3Text": "„Zadbaj o formalności – zostaw je profesjonalistom.” Zapewniamy zgodność z przepisami i bezpieczeństwo Twojej firmy."
+    },
+    "featuredTestimonial": {
+      "title": "Co Mówią Nasi Klienci?",
+      "ctaAll": "Zobacz więcej opinii"
+    },
+    "finalCta": {
+      "title": "Gotowy na Rozwój Swojego Biznesu?",
+      "text": "Skontaktuj się z nami już dziś, aby dowiedzieć się, jak możemy wesprzeć Twoją firmę.",
+      "ctaButton": "Bezpłatna Konsultacja"
+    }
+  },
+  "aboutPage": {
+    "title": "O Legal In",
+    "subtitle": "Twój Partner w Biznesie – Poznaj Nas Bliżej",
+    "missionSection": {
+      "title": "Nasza Misja i Wartości",
+      "intro": "Naszą misją w Legal In jest dostarczanie kompleksowych i rzetelnych usług księgowych oraz kadrowo-płacowych, które pozwalają naszym klientom skupić się na strategicznym rozwoju ich przedsiębiorstw. Działamy w oparciu o fundamentalne wartości, które kierują naszą codzienną pracą:",
+      "value1": "<strong>Profesjonalizm:</strong> Stale podnosimy kwalifikacje i śledzimy zmiany w przepisach, aby świadczyć usługi na najwyższym poziomie.",
+      "value2": "<strong>Zaufanie:</strong> Budujemy długoterminowe relacje oparte na transparentności, poufności i wzajemnym szacunku.",
+      "value3": "<strong>Indywidualne podejście:</strong> Rozumiemy unikalne potrzeby każdego klienta, dostosowując nasze usługi do specyfiki jego działalności."
+    },
+    "teamSection": {
+      "title": "Nasza Misja i Wartości",
+      "intro": "Zespół Legal In to dynamiczne i doświadczone specjalistki, pasjonatki swojej pracy. Łączymy wiedzę merytoryczną z nowoczesnym podejściem do obsługi klienta. Mówimy językiem liczb i przepisów, ale przede wszystkim – językiem korzyści dla Twojej firmy. Jesteśmy tu, by wspierać Cię na każdym etapie prowadzenia działalności.",
+      "member1Name": "Katarzyna Nowak",
+      "member1Role": "Główna Księgowa",
+      "member1Bio": "Specjalistka ds. pełnej księgowości i podatków. Zawsze na bieżąco z przepisami.",
+      "member2Name": "Ewa Kowalska",
+      "member2Role": "Specjalista ds. Kadr i Płac",
+      "member2Bio": "Ekspertka w zakresie prawa pracy i ubezpieczeń społecznych. Dba o każdy detal.",
+      "member3Name": "Anna Zalewska",
+      "member3Role": "Młodsza Księgowa",
+      "member3Bio": "Dynamiczna i ambitna, wspiera zespół w codziennych zadaniach księgowych."
+    },
+    "historySection": {
+      "title": "Historia i Doświadczenie",
+      "text1": "Firma Legal In działa na rynku od <strong>czerwca 2021 roku</strong>, konsekwentnie budując pozycję zaufanego partnera dla małych firm i działalności gospodarczych we Wrocławiu i okolicach. Choć jesteśmy stosunkowo młodą firmą, nasz zespół składa się z osób z wieloletnim doświadczeniem w branży księgowej i finansowej.",
+      "text2": "Obsługujemy zarówno jednoosobowe działalności gospodarcze, jak i spółki prawa handlowego, oferując wsparcie na każdym etapie rozwoju – od założenia firmy, przez bieżącą obsługę, po doradztwo strategiczne. Naszym celem jest zapewnienie klientom spokoju ducha i pewności, że ich finanse są w dobrych rękach.",
+      "ctaButton": "Porozmawiajmy o Twoim Biznesie"
+    }
+  },
+  "servicesPage": {
+    "title": "Profesjonalne Usługi Księgowe i Kadrowe",
+    "subtitle": "Pomagamy przedsiębiorcom i firmom działać zgodnie z przepisami – skutecznie, terminowo i bez zbędnych formalności.",
+    "ctaConsultation": "Zamów darmową konsultację",
+    "finalCta": {
+      "title": "Masz Pytania lub Potrzebujesz Indywidualnej Oferty?",
+      "text": "Chętnie omówimy potrzeby Twojej firmy i przygotujemy spersonalizowaną propozycję współpracy.",
+      "ctaButton": "Porozmawiajmy o Twojej firmie"
+    }
+  },
+  "clientsPage": {
+    "title": "Dla Kogo Pracujemy",
+    "subtitle": "Nasze usługi są skrojone na miarę potrzeb różnorodnych klientów – od jednoosobowych działalności po małe i średnie spółki.",
+    "introText": "W Legal In specjalizujemy się w obsłudze małych i średnich przedsiębiorstw, rozumiejąc specyfikę ich działania oraz wyzwania, przed którymi stają. Niezależnie od formy prawnej czy branży, dostarczamy profesjonalne wsparcie księgowe i kadrowe. Naszymi klientami są przede wszystkim:",
+    "ctaAskOffer": "Zapytaj o ofertę dla Ciebie",
+    "outroText": "Obsługujemy firmy z <strong>Polski</strong> oraz wspieramy przedsiębiorców i firmy z <strong>Ukrainy</strong> w nawigacji po polskich przepisach. Nasza ekspertyza jest kluczem do Twojego spokoju.",
+    "finalCta": {
+      "title": "Dołącz do grona zadowolonych klientów Legal In!",
+      "text": "Niezależnie od wielkości Twojej firmy, mamy rozwiązania dopasowane do Twoich potrzeb.",
+      "ctaButton": "Skontaktuj się i poznaj ofertę"
+    }
+  },
+  "benefitsPage": {
+    "title": "Korzyści ze Współpracy z Legal In",
+    "subtitle": "Dowiedz się, dlaczego warto powierzyć nam księgowość i kadry Twojej firmy.",
+    "introText": "Wybierając Legal In, zyskujesz nie tylko profesjonalną obsługę księgową i kadrową, ale przede wszystkim partnera, który aktywnie wspiera rozwój Twojego biznesu. Naszym celem jest zapewnienie Ci spokoju i pewności, że wszystkie formalności są prowadzone rzetelnie i zgodnie z prawem.",
+    "finalCta": {
+      "title": "Zainwestuj w Spokój i Rozwój Swojej Firmy",
+      "text": "„Zadbaj o formalności – zostaw je profesjonalistom.” Koncentruj się na tym, co robisz najlepiej, a my zajmiemy się resztą.",
+      "ctaButton": "Porozmawiajmy o Korzyściach dla Ciebie"
+    }
+  },
+  "testimonialsPage": {
+    "title": "Opinie Naszych Klientów",
+    "subtitle": "Posłuchaj, co mówią o współpracy z Legal In przedsiębiorcy tacy jak Ty.",
+    "noTestimonials": "Obecnie nie mamy jeszcze opublikowanych opinii. Pracujemy nad tym!",
+    "finalCta": {
+      "title": "Chcesz Podzielić Się Swoją Opinią lub Dowiedzieć Więcej?",
+      "text": "Cenimy każdą informację zwrotną od naszych klientów. Jeśli chcesz dowiedzieć się, jak możemy pomóc Twojej firmie, skontaktuj się z nami.",
+      "ctaButton": "Napisz do Nas"
+    }
+  },
+  "contactPage": {
+    "title": "Skontaktuj się z Nami",
+    "subtitle": "Masz pytania? Chcesz nawiązać współpracę? Jesteśmy do Twojej dyspozycji. Wypełnij formularz lub skontaktuj się bezpośrednio.",
+    "formTitle": "Napisz do nas",
+    "detailsTitle": "Dane Kontaktowe",
+    "addressLabel": "Adres Biura:",
+    "phoneLabel": "Telefon:",
+    "emailLabel": "Email:",
+    "hoursLabel": "Godziny Otwarcia:",
+    "facebookLabel": "Znajdź nas na Facebooku:",
+    "facebookVisit": "Odwiedź nasz profil",
+    "mapTitle": "Nasza Lokalizacja",
+    "mapCaption": "Prosimy o wcześniejsze umówienie spotkania."
+  },
+  "blogPage": {
+    "title": "Blog / Poradnik",
+    "subtitle": "Aktualności, porady i wskazówki ze świata księgowości, kadr i podatków. Dzielimy się naszą wiedzą, aby pomóc Ci lepiej zarządzać firmą.",
+    "authorPrefix": "Autor",
+    "readMore": "Czytaj więcej",
+    "noPosts": {
+      "title": "Już wkrótce!",
+      "text": "Pracujemy nad przygotowaniem wartościowych treści dla Ciebie. Zajrzyj tu później!"
+    },
+    "finalCta": {
+      "title": "Potrzebujesz Indywidualnej Porady?",
+      "text": "Jeśli masz konkretne pytania dotyczące Twojej sytuacji finansowej lub kadrowej, skontaktuj się z nami. Chętnie pomożemy.",
+      "ctaButton": "Umów Konsultację"
+    }
+  },
+  "notFoundPage": {
+    "title": "404",
+    "heading": "Strona Nie Znaleziona",
+    "message": "Przepraszamy, strona, której szukasz, nie istnieje lub została przeniesiona.",
+    "ctaButton": "Wróć na Stronę Główną"
+  },
+  "privacyPolicyPage": {
+    "title": "Polityka Prywatności",
+    "subtitle": "Dowiedz się, jak chronimy Twoje dane osobowe.",
+    "disclaimer": "Poniżej znajduje się przykładowy tekst polityki prywatności. Należy go dostosować do faktycznych praktyk firmy.",
+    "section1Title": "1. Wprowadzenie",
+    "section1Text1": "Niniejsza Polityka Prywatności określa zasady przetwarzania i ochrony danych osobowych przekazywanych przez Użytkowników w związku z korzystaniem przez nich z usług oferowanych przez stronę internetową [Nazwa Firmy - np. Legal In] (dalej: \"Serwis\").",
+    "section1Text2": "Administratorem danych osobowych zawartych w serwisie jest [Pełna Nazwa Firmy, Adres, NIP, REGON - np. Legal In z siedzibą w Wrocław 50-413, pl. Walerego Wróblewskiego 3a, lok.7, NIP: 8992900170] (dalej: \"Administrator\").",
+    "section2Title": "2. Zakres zbieranych danych",
+    "section2Text1": "Serwis zbiera informacje podane dobrowolnie przez użytkownika, w tym w szczególności podczas wypełniania formularza kontaktowego:",
+    "section2ListItem1": "Imię i nazwisko",
+    "section2ListItem2": "Adres e-mail",
+    "section2ListItem3": "Numer telefonu (opcjonalnie)",
+    "section2ListItem4": "Treść zapytania",
+    "section2Text2": "Serwis może również zapisywać informacje o parametrach połączenia (oznaczenie czasu, adres IP).",
+    "section3Title": "3. Cel przetwarzania danych",
+    "section3Text1": "Dane osobowe Użytkowników zbierane są w celu:",
+    "section3ListItem1": "Odpowiedzi na zapytania Użytkowników kierowane przy użyciu formularza kontaktowego,",
+    "section3ListItem2": "Realizacji zamówionych usług (jeśli dotyczy),",
+    "section3ListItem3": "Marketingu bezpośredniego własnych produktów lub usług Administratora (jeśli Użytkownik wyraził na to zgodę),",
+    "section3ListItem4": "Celów analitycznych i statystycznych.",
+    "section4Title": "4. Podstawa prawna przetwarzania danych",
+    "section4Text1": "Podstawą prawną przetwarzania danych osobowych jest:",
+    "section4ListItem1": "Zgoda Użytkownika (art. 6 ust. 1 lit. a RODO) – w przypadku danych podanych w formularzu kontaktowym oraz w celach marketingowych.",
+    "section4ListItem2": "Niezbędność do wykonania umowy lub podjęcia działań na żądanie osoby, której dane dotyczą, przed zawarciem umowy (art. 6 ust. 1 lit. b RODO) – w przypadku realizacji zamówionych usług.",
+    "section4ListItem3": "Prawnie uzasadniony interes Administratora (art. 6 ust. 1 lit. f RODO) – w celach analitycznych, statystycznych oraz w celu ustalenia, dochodzenia lub obrony roszczeń.",
+    "section5Title": "5. Okres przechowywania danych",
+    "section5Text1": "Dane osobowe będą przechowywane przez okres niezbędny do realizacji celów, dla których zostały zebrane, a po tym okresie dla celów i przez czas oraz w zakresie wymaganym przez przepisy prawa lub dla zabezpieczenia ewentualnych roszczeń.",
+    "section5Text2": "Jeżeli przetwarzanie odbywa się na podstawie zgody, dane przechowywane są do momentu jej wycofania.",
+    "section6Title": "6. Prawa Użytkownika",
+    "section6Text1": "Użytkownikowi przysługuje prawo dostępu do treści swoich danych oraz prawo ich sprostowania, usunięcia, ograniczenia przetwarzania, prawo do przenoszenia danych, prawo wniesienia sprzeciwu, prawo do cofnięcia zgody w dowolnym momencie bez wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem.",
+    "section6Text2": "Użytkownik ma prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych, gdy uzna, iż przetwarzanie danych osobowych jego dotyczących narusza przepisy RODO.",
+    "section7Title": "7. Udostępnianie danych osobowych",
+    "section7Text1": "Dane osobowe Użytkowników mogą być udostępniane podmiotom uprawnionym do ich otrzymania na mocy obowiązujących przepisów prawa, w tym właściwym organom wymiaru sprawiedliwości. Dane osobowe mogą być również przekazywane podmiotom przetwarzającym dane w imieniu Administratora, np. dostawcom usług IT, firmom hostingowym, pod warunkiem, że podmioty te zapewniają odpowiednią ochronę danych.",
+    "section8Title": "8. Pliki Cookies",
+    "section8Text1": "Serwis korzysta z plików cookies. Są to niewielkie pliki tekstowe wysyłane przez serwer www i przechowywane przez oprogramowanie komputera przeglądarki. Kiedy przeglądarka ponownie połączy się ze stroną, witryna rozpoznaje rodzaj urządzenia, z którego łączy się użytkownik. Parametry pozwalają na odczytanie informacji w nich zawartych jedynie serwerowi, który je utworzył.",
+    "section8Text2": "Szczegółowe informacje na temat plików cookies i zasad ich wykorzystywania będą zawarte w odrębnej Polityce Cookies (jeśli dotyczy).",
+    "section9Title": "9. Zmiany w Polityce Prywatności",
+    "section9Text1": "Administrator zastrzega sobie prawo do wprowadzania zmian w Polityce Prywatności. O wszelkich zmianach Administrator będzie informować poprzez udostępnienie nowej treści Polityki Prywatności na stronie Serwisu.",
+    "section10Title": "10. Kontakt",
+    "section10Text1": "W przypadku pytań dotyczących przetwarzania danych osobowych oraz realizacji przysługujących praw, prosimy o kontakt pod adresem e-mail: [adres email do kontaktu ws. RODO] lub pisemnie na adres siedziby Administratora.",
+    "backToContact": "Wróć do strony Kontakt"
+  },
+  "services": {
+    "ksiegowosc": {
+      "title": "Księgowość",
+      "shortDescription": "Pełna obsługa księgowa dla firm i JDG. Rzetelność i terminowość.",
+      "longDescription": "Zapewniamy kompleksową obsługę księgową, w tym prowadzenie Ksiąg Przychodów i Rozchodów (KPiR), ryczałtu ewidencjonowanego oraz ksiąg handlowych dla spółek. Sporządzamy deklaracje podatkowe (VAT, PIT, CIT), Jednolite Pliki Kontrolne (JPK) oraz sprawozdania finansowe. Gwarantujemy zgodność z aktualnymi przepisami i stały dostęp do informacji o finansach Twojej firmy.",
+      "ctaText": "Dowiedz się więcej"
+    },
+    "kadry-i-place": {
+      "title": "Kadry i Płace",
+      "shortDescription": "Kompleksowa obsługa kadrowo-płacowa. Zadbamy o Twoich pracowników.",
+      "longDescription": "Świadczymy pełen zakres usług kadrowo-płacowych: od przygotowywania umów o pracę, zlecenia i o dzieło, przez naliczanie wynagrodzeń i sporządzanie list płac, po obsługę ZUS, PFRON i PPK. Prowadzimy akta osobowe i dbamy o zgodność dokumentacji z prawem pracy. Z nami zarządzanie personelem staje się prostsze.",
+      "ctaText": "Sprawdź ofertę"
+    },
+    "zakladanie-dzialalnosci": {
+      "title": "Zakładanie Działalności",
+      "shortDescription": "Profesjonalne wsparcie na starcie Twojego biznesu.",
+      "longDescription": "Pomagamy przejść przez cały proces rejestracji nowej firmy. Doradzamy w wyborze optymalnej formy prawnej i opodatkowania. Przygotowujemy niezbędne dokumenty i wspieramy w formalnościach związanych z CEIDG, KRS, ZUS i Urzędem Skarbowym. Z nami start w biznesie jest łatwiejszy.",
+      "ctaText": "Rozpocznij z nami"
+    },
+    "obsluga-cudzoziemcow": {
+      "title": "Obsługa Cudzoziemców",
+      "shortDescription": "Specjalistyczne wsparcie dla zagranicznych przedsiębiorców i pracowników.",
+      "longDescription": "Oferujemy kompleksowe wsparcie dla firm z kapitałem zagranicznym oraz cudzoziemców prowadzących działalność lub pracujących w Polsce. Pomagamy zrozumieć polskie przepisy podatkowe i prawa pracy, zapewniając płynne prowadzenie biznesu i dopełnienie wszelkich formalności. Nasza ekspertyza to Twój spokój.",
+      "ctaText": "Zobacz szczegóły"
+    }
+  },
+  "benefits": {
+    "ekspertyza": {
+      "title": "Ekspertyza i Doświadczenie",
+      "description": "Nasz zespół to wykwalifikowani specjaliści z wieloletnią praktyką. Stale aktualizujemy wiedzę, aby zapewnić usługi na najwyższym poziomie, zgodne z dynamicznie zmieniającymi się przepisami."
+    },
+    "indywidualne-podejscie": {
+      "title": "Indywidualne Podejście",
+      "description": "Rozumiemy, że każda firma jest inna. Dopasowujemy nasze usługi do specyficznych potrzeb i oczekiwań Twojego biznesu, oferując spersonalizowane rozwiązania."
+    },
+    "bezpieczenstwo": {
+      "title": "Bezpieczeństwo i Zgodność",
+      "description": "Gwarantujemy pełną zgodność z obowiązującymi przepisami prawa podatkowego i pracy. Dbamy o bezpieczeństwo Twoich danych i interesów finansowych."
+    },
+    "oszczednosc-czasu": {
+      "title": "Oszczędność Czasu i Zasobów",
+      "description": "Przejmując obowiązki księgowe i kadrowe, pozwalamy Ci skoncentrować się na rozwoju strategicznym Twojej firmy. Oszczędzasz czas i zasoby, które możesz przeznaczyć na kluczowe działania."
+    }
+  },
+  "testimonials": {
+    "client1": {
+      "quote": "Współpraca z Legal In to czysta przyjemność. Pełen profesjonalizm, terminowość i ogromna wiedza. Zawsze mogę liczyć na fachową poradę. Polecam!",
+      "author": "Anna Kowalska",
+      "company": "Właścicielka Kwiaciarni \"Kwiaty Anny\""
+    },
+    "client2": {
+      "quote": "Legal In pomogło mi założyć firmę i od początku prowadzi moją księgowość. Wszystko jest zawsze na czas i bezbłędnie. Zespół jest bardzo pomocny i kompetentny.",
+      "author": "Piotr Nowak",
+      "company": "Programista JDG"
+    },
+    "client3": {
+      "quote": "Od kiedy powierzyłam kadry i płace firmie Legal In, śpię spokojniej. Wiem, że wszystko jest prowadzone zgodnie z przepisami. Dynamiczny i doświadczony zespół!",
+      "author": "Magdalena Wiśniewska",
+      "company": "Dyrektor Małej Spółki Produkcyjnej"
+    }
+  },
+  "clientTypes": {
+    "jdg": {
+      "name": "Jednoosobowe Działalności Gospodarcze (JDG)",
+      "description": "Kompleksowa obsługa księgowa i podatkowa dla samozatrudnionych i freelancerów. Pomagamy w wyborze formy opodatkowania, prowadzimy KPiR lub ryczałt, sporządzamy deklaracje ZUS i podatkowe."
+    },
+    "sme": {
+      "name": "Małe i Średnie Spółki (Sp. z o.o., Sp. Jawna)",
+      "description": "Prowadzenie pełnej księgowości (księgi handlowe), sprawozdawczość finansowa, obsługa CIT. Wsparcie w zarządzaniu finansami spółki i optymalizacji podatkowej."
+    },
+    "foreign": {
+      "name": "Firmy z Kapitałem Zagranicznym",
+      "description": "Specjalistyczne doradztwo dla podmiotów z udziałem kapitału zagranicznego. Pomoc w zrozumieniu polskich regulacji, raportowanie do centrali, obsługa w języku angielskim w razie potrzeby."
+    },
+    "startup": {
+      "name": "Startupy i Nowe Firmy",
+      "description": "Wsparcie na każdym etapie rozwoju – od rejestracji firmy, przez wybór struktury i finansowania, po bieżącą obsługę księgową i kadrową. Pomagamy młodym przedsiębiorcom pewnie wkroczyć na rynek."
+    }
+  },
+  "blogPosts": {
+    "post1": {
+      "title": "5 Najczęstszych Błędów w Księgowości Małej Firmy i Jak Ich Uniknąć",
+      "date": "15 lipca 2024",
+      "author": "Katarzyna Nowak",
+      "summary": "Prowadzenie własnej firmy to wyzwanie, a błędy w księgowości mogą być kosztowne. Poznaj najczęstsze pułapki i dowiedz się, jak ich unikać, aby Twoja firma działała sprawnie i zgodnie z przepisami."
+    },
+    "post2": {
+      "title": "Zmiany w Przepisach Kadrowych 2024 – Co Musisz Wiedzieć?",
+      "date": "5 lipca 2024",
+      "author": "Ewa Kowalska",
+      "summary": "Rok 2024 przyniósł kilka istotnych zmian w prawie pracy i ubezpieczeniach społecznych. Przygotowaliśmy przegląd najważniejszych aktualizacji, które każdy pracodawca powinien znać."
+    },
+    "post3": {
+      "title": "Jak Wybrać Najlepszą Formę Opodatkowania dla Twojej Działalności?",
+      "date": "28 czerwca 2024",
+      "author": "Zespół Legal In",
+      "summary": "Decyzja o formie opodatkowania to jeden z kluczowych wyborów przy zakładaniu firmy. Podpowiadamy, na co zwrócić uwagę i jakie są dostępne opcje, aby zoptymalizować swoje zobowiązania podatkowe."
+    }
+  },
+  "contactForm": {
+    "nameLabel": "Imię i nazwisko",
+    "nameRequired": "Imię i nazwisko jest wymagane.",
+    "emailLabel": "Adres email",
+    "emailRequired": "Adres email jest wymagany.",
+    "emailInvalid": "Nieprawidłowy format adresu email.",
+    "phoneLabel": "Numer telefonu (opcjonalnie)",
+    "serviceLabel": "Interesująca usługa (opcjonalnie)",
+    "serviceOptionDefault": "Wybierz usługę...",
+    "serviceOptionAccounting": "Księgowość",
+    "serviceOptionHR": "Kadry i Płace",
+    "serviceOptionSetup": "Zakładanie Działalności",
+    "serviceOptionForeigners": "Obsługa Cudzoziemców",
+    "serviceOptionOther": "Inne",
+    "messageLabel": "Wiadomość",
+    "messageRequired": "Wiadomość jest wymagana.",
+    "messageMinLength": "Wiadomość musi mieć co najmniej 10 znaków.",
+    "consentLabel": "Wyrażam zgodę na przetwarzanie moich danych osobowych w celu kontaktu.",
+    "consentRequired": "Zgoda na przetwarzanie danych jest wymagana.",
+    "consentDetails": "Administratorem danych jest Legal In. Dane będą przetwarzane w celu odpowiedzi na zapytanie. <1>Dowiedz się więcej</1>.",
+    "submitButton": "Wyślij zapytanie",
+    "successTitle": "Dziękujemy za wiadomość!",
+    "successMessage": "Skontaktujemy się z Tobą najszybciej jak to możliwe.",
+    "sendAnother": "Wyślij kolejną wiadomość",
+    "requiredField": "pole wymagane"
+  },
+  "langSwitcher": {
+    "pl": "Zmień język na polski",
+    "uk": "Zmień język na ukraiński"
+  }
+}
