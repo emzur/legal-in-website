@@ -28,7 +28,7 @@ const Header: React.FC = () => {
           <img
             src="/assets/legal-in-logo.jpeg"
             alt="Legal In logo"
-            className="h-10 w-auto"
+            className="h-14 w-auto"
           />
           <span className="sr-only">Legal In</span>
         </Link>

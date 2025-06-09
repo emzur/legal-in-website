@@ -15,6 +15,9 @@ import ContactPage from './pages/ContactPage.tsx';
 import BlogPage from './pages/BlogPage.tsx';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage.tsx';
 import NotFoundPage from './pages/NotFoundPage.tsx';
+import ServiceCategoryPage from './pages/ServiceCategoryPage';
+import ServiceDetailPage from './pages/ServiceDetailPage';
+import HRSupportPage from './pages/HRSupportPage';
 
 const AppLayout: React.FC = () => {
   return (
@@ -44,6 +47,9 @@ const App: React.FC = () => {
           <Route index element={<HomePage />} />
           <Route path="o-nas" element={<AboutPage />} />
           <Route path="uslugi" element={<ServicesPage />} />
+          <Route path="/uslugi/:categorySlug" element={<ServiceCategoryPage />} />
+          <Route path="/uslugi/:categorySlug/:serviceSlug" element={<ServiceDetailPage />} />
+          <Route path="/uslugi/hr" element={<HRSupportPage />} />
           <Route path="dla-kogo-pracujemy" element={<ClientsPage />} />
           <Route path="korzysci" element={<BenefitsPage />} />
           <Route path="opinie" element={<TestimonialsPage />} />

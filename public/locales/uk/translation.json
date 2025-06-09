@@ -261,6 +261,102 @@
       "description": "Беручи на себе бухгалтерські та кадрові обов'язки, ми дозволяємо вам зосередитися на стратегічному розвитку вашої компанії. Ви економите час та ресурси, які можете спрямувати на ключові напрямки діяльності."
     }
   },
+  "servicesAccordion": {
+    "Підтримка HR у працевлаштуванні іноземців": [
+      { "title": "обслуговування процесу переведення працівників з агентства праці", "url": "/uslugi/hr/przeniesienie-z-agencji" },
+      { "title": "отримання дозволів на роботу", "url": "/uslugi/hr/pozwolenia-na-prace" },
+      { "title": "моніторинг легальності перебування іноземців", "url": "/uslugi/hr/legalnosc-pobytu" },
+      { "title": "аудит особових справ працівників", "url": "/uslugi/hr/audyt-akt" },
+      { "title": "тренінги для HR-відділів", "url": "/uslugi/hr/szkolenia" },
+      { "title": "допомога в організації перебування іноземців", "url": "/uslugi/hr/pomoc-w-pobycie" },
+      { "title": "обслуговування делегування працівників", "url": "/uslugi/hr/delegowanie" }
+    ],
+    "Легалізація працевлаштування та перебування іноземців": [
+      { "title": "легалізація працевлаштування іноземців", "url": "/uslugi/legalizacja/zatrudnienie" },
+      { "title": "легалізація перебування іноземців", "url": "/uslugi/legalizacja/pobyt" }
+    ],
+    "Реєстрація компанії": [
+      { "title": "створення ТОВ", "url": "/uslugi/rejestracja/spolka" },
+      { "title": "реєстрація ФОП", "url": "/uslugi/rejestracja/jdg" },
+      { "title": "бізнес-інкубатор", "url": "/uslugi/rejestracja/inkubator" },
+      { "title": "підтримка в організаційних формальностях", "url": "/uslugi/rejestracja/formalnosci" },
+      { "title": "віртуальний офіс", "url": "/uslugi/rejestracja/biuro-wirtualne" }
+    ],
+    "Бізнес-підтримка": [
+      { "title": "аутсорсинг адміністративних послуг", "url": "/uslugi/biznes/outsourcing" },
+      { "title": "бізнес-консультації", "url": "/uslugi/biznes/doradztwo" },
+      { "title": "податкові консультації", "url": "/uslugi/biznes/podatki" },
+      { "title": "юридичне обслуговування", "url": "/uslugi/biznes/prawna" },
+      { "title": "підтримка імпорту-експорту", "url": "/uslugi/biznes/import-eksport" },
+      { "title": "підтримка на ринку нерухомості", "url": "/uslugi/biznes/nieruchomosci" },
+      { "title": "страхування", "url": "/uslugi/biznes/ubezpieczenia" },
+      { "title": "мовні курси для бізнесу", "url": "/uslugi/biznes/kursy" }
+    ],
+    "Бухгалтерське обслуговування": [
+      { "title": "бухгалтерія – облік на підставі фіксованого податку", "url": "/uslugi/ksiegowosc/ryczalt" },
+      { "title": "бухгалтерія – книга доходів і витрат (KPiR)", "url": "/uslugi/ksiegowosc/kpir" },
+      { "title": "бухгалтерія – повний бухгалтерський облік для ТОВ", "url": "/uslugi/ksiegowosc/ksiegi-handlowe" }
+    ],
+    "Кадрово-платіжне обслуговування": [
+      { "title": "кадрове обслуговування", "url": "/uslugi/kadry/kadrowa" },
+      { "title": "платіжне обслуговування", "url": "/uslugi/kadry/placowa" },
+      { "title": "делегування працівників до ЄС", "url": "/uslugi/kadry/delegowanie-ue" },
+      { "title": "обслуговування PPK", "url": "/uslugi/kadry/ppk" },
+      { "title": "аутсорсинг охорони праці та медоглядів", "url": "/uslugi/kadry/bhp-badania" },
+      { "title": "підбір персоналу", "url": "/uslugi/kadry/rekrutacja" }
+    ]
+  },
+  "serviceDescriptions": {
+    "Wsparcie HR w zatrudnianiu cudzoziemców": {
+      "header": "Підтримка HR у працевлаштуванні іноземців",
+      "obsługa procesu przeniesienia pracowników z agencji pracy": "Підтримка при переведенні працівників з агентства праці",
+      "uzyskanie pozwoleń na pracę": "Отримання дозволів на роботу",
+      "monitorowanie legalności pobytów cudzoziemców": "Моніторинг законності перебування іноземців",
+      "audyt akt pracowniczych": "Аудит кадрової документації",
+      "szkolenia działów HR": "Навчання для відділів HR",
+      "pomoc w organizacji pobytu cudzoziemców": "Допомога в організації перебування іноземців",
+      "obsługa delegowania pracowników": "Обслуговування відряджень працівників"
+    },
+    "Legalizacja zatrudnienia i pobytu cudzoziemców": {
+      "header": "Легалізація працевлаштування та перебування іноземців",
+      "Legalizacja zatrudnienia cudzoziemców": "Легалізація працевлаштування іноземців",
+      "Legalizacja pobytu cudzoziemców": "Легалізація перебування іноземців"
+    },
+    "Rejestracja firmy": {
+      "header": "Реєстрація компанії",
+      "Założenie Spółki": "Створення ТОВ",
+      "Rejestracja JDG": "Реєстрація ФОП",
+      "Inkubator biznesu": "Бізнес-інкубатор",
+      "Wsparcie w formalnościach organizacyjnych": "Допомога з організаційними формальностями",
+      "Biuro Wirtualne": "Віртуальний офіс"
+    },
+    "Wsparcie biznesowe": {
+      "header": "Бізнес-підтримка",
+      "Outsourcing usług administracyjnych": "Аутсорсинг адміністративних послуг",
+      "Doradztwo biznesowe": "Бізнес-консультації",
+      "Doradztwo podatkowe": "Податкові консультації",
+      "Obsługa prawna": "Юридичне обслуговування",
+      "Obsługa importu-eksportu": "Підтримка імпорту та експорту",
+      "Wsparcie na rynku nieruchomości": "Підтримка на ринку нерухомості",
+      "Ubezpieczenia": "Страхування",
+      "Kursy językowe dla biznesu": "Мовні курси для бізнесу"
+    },
+    "Obsługa rozliczeniowo-księgowa": {
+      "header": "Бухгалтерський облік та розрахунки",
+      "Obsługa księgowa – Ryczałt ewidencjonowany": "Бухгалтерський облік – облік річного доходу",
+      "Obsługa księgowa – Księga Przychodów i Rozchodów (KPiR)": "Бухгалтерський облік – книга прибутків і витрат (KPiR)",
+      "Obsługa księgowa – księgi handlowe dla spółek": "Бухгалтерський облік – торгові книги для компаній"
+    },
+    "Obsługa kadrowo-płacowa": {
+      "header": "Кадрове та платіжне обслуговування",
+      "Obsługa kadrowa": "Кадрове обслуговування",
+      "Obsługa płacowa": "Платіжне обслуговування",
+      "Obsługa delegowania pracowników do UE": "Обслуговування відряджень працівників до ЄС",
+      "Obsługa PPK": "Обслуговування PPK",
+      "Outsourcing BHP i Badań lekarskich": "Аутсорсинг охорони праці та медичних оглядів",
+      "Rekrutacja pracowników": "Рекрутинг працівників"
+    }
+  },
   "testimonials": {
     "client1": {
       "quote": "Співпраця з Legal In – це чисте задоволення. Повний професіоналізм, своєчасність та величезні знання. Завжди можу розраховувати на фахову пораду. Рекомендую!",

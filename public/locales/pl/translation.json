@@ -35,14 +35,14 @@
   },
   "homePage": {
     "hero": {
-      "title": "Legal In: Eksperci w Księgowości i Kadrach dla Twojego Biznesu",
+      "title": "Legal.IN – Twój Zaufany Partner w Prowadzeniu Biznesu",
       "subtitle": "Skup się na rozwoju firmy, my zadbamy o resztę. Profesjonalne usługi księgowe i kadrowe, które rozumieją Twój biznes.",
       "ctaServices": "Poznaj Nasze Usługi",
       "ctaContact": "Skontaktuj się z Nami"
     },
     "shortAbout": {
       "title": "Kim Jesteśmy?",
-      "text": "Jesteśmy zespołem doświadczonych księgowych i specjalistów ds. kadr, gotowych wspierać rozwój Twojej firmy. Od czerwca 2021 roku pomagamy przedsiębiorcom z Wrocławia i okolic w prowadzeniu działalności zgodnie z przepisami.",
+      "text": "Legal.IN to agencja zarządzania biznesem, która pomaga przedsiębiorcom odzyskać czas, spokój i kontrolę, oferując kompleksowe wsparcie administracyjne, księgowe i kadrowe – wszystko w jednym miejscu. Nie musisz już rozdzielać zadań między wielu usługodawców. Tworzymy dla Ciebie osobiste centrum obsługi firmy, dopasowane do rodzaju działalności i Twoich realnych potrzeb. Działamy lokalnie, myślimy strategicznie – i jesteśmy zawsze pod ręką.",
       "ctaMore": "Dowiedz się więcej o Legal In"
     },
     "featuredServices": {
@@ -99,7 +99,7 @@
     }
   },
   "servicesPage": {
-    "title": "Profesjonalne Usługi Księgowe i Kadrowe",
+    "title": "Poznaj Nasze Usługi",
     "subtitle": "Pomagamy przedsiębiorcom i firmom działać zgodnie z przepisami – skutecznie, terminowo i bez zbędnych formalności.",
     "ctaConsultation": "Zamów darmową konsultację",
     "finalCta": {
@@ -259,6 +259,115 @@
     "oszczednosc-czasu": {
       "title": "Oszczędność Czasu i Zasobów",
       "description": "Przejmując obowiązki księgowe i kadrowe, pozwalamy Ci skoncentrować się na rozwoju strategicznym Twojej firmy. Oszczędzasz czas i zasoby, które możesz przeznaczyć na kluczowe działania."
+    }
+  },
+  "servicesAccordion": {
+    "Wsparcie HR w zatrudnianiu cudzoziemców": [
+      { "title": "Obsługa procesu przeniesienia pracowników z agencji pracy", "url": "/uslugi/hr#przeniesienie-z-agencji" },
+      { "title": "Uzyskanie pozwoleń na pracę", "url": "/uslugi/hr#pozwolenia-na-prace" },
+      { "title": "Monitorowanie legalności pobytów cudzoziemców", "url": "/uslugi/hr#legalnosc-pobytu" },
+      { "title": "Audyt akt pracowniczych", "url": "/uslugi/hr#audyt-akt" },
+      { "title": "Szkolenia działów HR", "url": "/uslugi/hr#szkolenia" },
+      { "title": "Pomoc w organizacji pobytu cudzoziemców", "url": "/uslugi/hr#pomoc-w-pobycie" },
+      { "title": "Obsługa delegowania pracowników", "url": "/uslugi/hr#delegowanie" }
+    ],
+    "Legalizacja zatrudnienia i pobytu cudzoziemców": [
+      { "title": "Legalizacja zatrudnienia cudzoziemców", "url": "/uslugi/legalizacja/zatrudnienie" },
+      { "title": "Legalizacja pobytu cudzoziemców", "url": "/uslugi/legalizacja/pobyt" }
+    ],
+    "Rejestracja firmy": [
+      { "title": "Założenie Spółki", "url": "/uslugi/rejestracja/spolka" },
+      { "title": "Rejestracja JDG", "url": "/uslugi/rejestracja/jdg" },
+      { "title": "Inkubator biznesu", "url": "/uslugi/rejestracja/inkubator" },
+      { "title": "Wsparcie w formalnościach organizacyjnych", "url": "/uslugi/rejestracja/formalnosci" },
+      { "title": "Biuro Wirtualne", "url": "/uslugi/rejestracja/biuro-wirtualne" }
+    ],
+    "Wsparcie biznesowe": [
+      { "title": "Outsourcing usług administracyjnych", "url": "/uslugi/biznes/outsourcing" },
+      { "title": "Doradztwo biznesowe", "url": "/uslugi/biznes/doradztwo" },
+      { "title": "Doradztwo podatkowe", "url": "/uslugi/biznes/podatki" },
+      { "title": "Obsługa prawna", "url": "/uslugi/biznes/prawna" },
+      { "title": "Obsługa importu-eksportu", "url": "/uslugi/biznes/import-eksport" },
+      { "title": "Wsparcie na rynku nieruchomości", "url": "/uslugi/biznes/nieruchomosci" },
+      { "title": "Ubezpieczenia", "url": "/uslugi/biznes/ubezpieczenia" },
+      { "title": "Kursy językowe dla biznesu", "url": "/uslugi/biznes/kursy" }
+    ],
+    "Obsługa rozliczeniowo-księgowa": [
+      { "title": "Obsługa księgowa – Ryczałt ewidencjonowany", "url": "/uslugi/ksiegowosc/ryczalt" },
+      { "title": "Obsługa księgowa – Księga Przychodów i Rozchodów (KPiR)", "url": "/uslugi/ksiegowosc/kpir" },
+      { "title": "Obsługa księgowa – księgi handlowe dla spółek", "url": "/uslugi/ksiegowosc/ksiegi-handlowe" }
+    ],
+    "Obsługa kadrowo-płacowa": [
+      { "title": "Obsługa kadrowa", "url": "/uslugi/kadry/kadrowa" },
+      { "title": "Obsługa płacowa", "url": "/uslugi/kadry/placowa" },
+      { "title": "Obsługa delegowania pracowników do UE", "url": "/uslugi/kadry/delegowanie-ue" },
+      { "title": "Obsługa PPK", "url": "/uslugi/kadry/ppk" },
+      { "title": "Outsourcing BHP i Badań lekarskich", "url": "/uslugi/kadry/bhp-badania" },
+      { "title": "Rekrutacja pracowników", "url": "/uslugi/kadry/rekrutacja" }
+    ]
+  },
+  "serviceDescriptions": {
+    "hrSupport": {
+      "title": "Wsparcie HR w Zatrudnianiu Cudzoziemców",
+      "intro": "Nasza firma oferuje kompleksowe wsparcie w zakresie legalizacji pobytu i zatrudnienia cudzoziemców w Polsce. Obsługujemy zarówno małe i średnie firmy, jak i międzynarodowe koncerny zatrudniające setki pracowników zza granicy.\n\nDzięki wieloletniemu doświadczeniu zbudowaliśmy zespół wysoko wykwalifikowanych specjalistów w dziedzinie prawa pracy i procedur legalizacyjnych. Korzystamy z nowoczesnych narzędzi komunikacji, co umożliwia nam sprawną współpracę z pracodawcami oraz cudzoziemcami na każdym etapie procesu.\n\nWysokie standardy, sprawdzone procedury oraz zaangażowanie zespołu sprawiają, że realizujemy powierzone nam zadania szybko, skutecznie i z pełnym profesjonalizmem.\n\n<strong>Efektywność operacyjna</strong>\nPrzejmujemy czasochłonne obowiązki administracyjne, co pozwala naszym klientom skoncentrować się na kluczowych aspektach prowadzenia biznesu.\n\n<strong>Pełna zgodność z przepisami</strong>\nGwarantujemy realizację wszystkich działań zgodnie z aktualnymi regulacjami prawnymi, minimalizując ryzyko kontroli i sankcji.\n\n<strong>Rozwiązania szyte na miarę</strong>\nKażdego klienta traktujemy indywidualnie, oferując elastyczne podejście i dostosowanie usług do konkretnych potrzeb organizacji.\n\n<strong>Profesjonalizm i specjalistyczna wiedza</strong>\nNasz zespół tworzą doświadczeni eksperci z zakresu prawa imigracyjnego i rynku pracy, co przekłada się na skuteczność i bezpieczeństwo powierzonych nam spraw.\n\n",
+      "sections": {
+        "przeniesienie-z-agencji": "Specjalizujemy się w kompleksowym przeprowadzaniu procesu przeniesienia pracowników – w szczególności cudzoziemców – z agencji pracy tymczasowej lub agencji zatrudnienia do bezpośredniego zatrudnienia u pracodawcy końcowego.\n\nNasza usługa obejmuje w szczególności:\n<strong>– weryfikację statusu imigracyjnego każdego pracownika</strong>, w tym ważności dokumentów legalizujących pobyt i pracę w Polsce,\n<strong>– analizę i aktualizację dokumentacji kadrowej</strong>, z uwzględnieniem wymogów prawa pracy oraz przepisów dotyczących zatrudniania cudzoziemców,\n<strong>– koordynację komunikacji pomiędzy pracownikami agencji a działem HR pracodawcy końcowego</strong>, przejmując na siebie bezpośredni kontakt z pracownikami w sprawach formalnych, co znacząco odciąża wewnętrzne działy personalne i usprawnia cały proces zatrudnienia.\n\nDzięki naszemu wsparciu pracodawca zyskuje pewność, że zatrudnienie odbywa się w pełni legalnie i bez zakłóceń, a cały proces przebiega sprawnie, z poszanowaniem przepisów prawa oraz interesów firmy.",
+        "pozwolenia-na-prace": "Uzyskujemy pozwolenia na pracę dla cudzoziemców – od A do Z. Znamy procedury i potrafimy działać szybko.",
+        "legalnosc-pobytu": "Monitorujemy terminy ważności dokumentów pobytowych Twoich pracowników, dzięki czemu nie zaskoczy Cię kontrola.",
+        "audyt-akt": "Sprawdzamy kompletność i zgodność akt osobowych z przepisami prawa pracy oraz RODO.",
+        "szkolenia": "Szkolimy działy HR w zakresie zatrudniania cudzoziemców, procedur legalizacji i ryzyk prawnych.",
+        "pomoc-w-pobycie": "Pomagamy cudzoziemcom w organizacji zakwaterowania, meldunku, ubezpieczenia zdrowotnego i innych aspektów życia w Polsce.",
+        "delegowanie": "Obsługujemy formalności związane z delegowaniem pracowników na terenie Polski i UE."
+      }
+    },
+    "legalizacja": {
+      "title": "Legalizacja zatrudnienia i pobytu cudzoziemców",
+      "sections": {
+        "zatrudnienie": "Zajmujemy się legalizacją zatrudnienia cudzoziemców, w tym oświadczeniami i zezwoleniami na pracę.",
+        "pobyt": "Kompleksowo obsługujemy proces legalizacji pobytu – karty pobytu, wizy, rejestracje."
+      }
+    },
+    "rejestracja": {
+      "title": "Rejestracja firmy",
+      "sections": {
+        "spolka": "Pomagamy założyć spółkę z o.o. lub inną formę działalności – szybko, legalnie, bez stresu.",
+        "jdg": "Rejestrujemy jednoosobowe działalności gospodarcze w pełnym zakresie – CEIDG, ZUS, urząd skarbowy.",
+        "inkubator": "Dajemy dostęp do inkubatora przedsiębiorczości – rozwiń firmę bez zbędnych kosztów.",
+        "formalnosci": "Wsparcie w zakresie statutów, umów, zgłoszeń i wszystkich formalności organizacyjnych.",
+        "biuro-wirtualne": "Oferujemy adres do rejestracji firmy oraz odbiór korespondencji – idealne dla startupów i freelancerów."
+      }
+    },
+    "biznes": {
+      "title": "Wsparcie biznesowe",
+      "sections": {
+        "outsourcing": "Przejmujemy zadania administracyjne, byś mógł skupić się na rozwoju swojego biznesu.",
+        "doradztwo": "Doradzamy w strategii, rozwoju i zarządzaniu – z punktu widzenia doświadczonych praktyków.",
+        "podatki": "Wspieramy w planowaniu podatkowym i optymalizacji kosztów działalności.",
+        "prawna": "Zapewniamy stałą obsługę prawną – umowy, opinie, reprezentacja.",
+        "import-eksport": "Pomagamy w procesach importowych i eksportowych – od cła po logistykę.",
+        "nieruchomosci": "Wspieramy najem, zakup i wynajem nieruchomości komercyjnych i biurowych.",
+        "ubezpieczenia": "Dopasowujemy ubezpieczenia dla firm i pracowników – zdrowotne, majątkowe i OC.",
+        "kursy": "Organizujemy kursy językowe dla zespołów – z naciskiem na słownictwo biznesowe."
+      }
+    },
+    "ksiegowosc": {
+      "title": "Obsługa rozliczeniowo-księgowa",
+      "sections": {
+        "ryczalt": "Prowadzimy księgowość na zasadach ryczałtu – przejrzyście i terminowo.",
+        "kpir": "Obsługujemy KPiR – Księgi Przychodów i Rozchodów dla małych i średnich firm.",
+        "ksiegi-handlowe": "Prowadzimy pełne księgi handlowe zgodnie z ustawą o rachunkowości – dla spółek i większych podmiotów."
+      }
+    },
+    "kadry": {
+      "title": "Obsługa kadrowo-płacowa",
+      "sections": {
+        "kadrowa": "Obsługujemy procesy kadrowe – umowy, aneksy, akta osobowe, dokumentacja pracownicza.",
+        "placowa": "Prowadzimy pełną obsługę płacową – listy płac, deklaracje ZUS, PIT, PPK.",
+        "delegowanie-ue": "Przygotowujemy dokumentację i zgłoszenia do delegowania pracowników za granicę.",
+        "ppk": "Prowadzimy wdrożenie i bieżącą obsługę Pracowniczych Planów Kapitałowych.",
+        "bhp-badania": "Organizujemy outsourcing BHP, szkolenia oraz badania lekarskie wstępne i okresowe.",
+        "rekrutacja": "Prowadzimy rekrutację dopasowaną do profilu Twojej działalności – od ogłoszenia po onboarding."
+      }
     }
   },
   "testimonials": {

@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'; // Import useTranslation
 import ServiceCard from '../components/ServiceCard.tsx';
 import TestimonialCard from '../components/TestimonialCard.tsx';
 import { SERVICES_DATA_KEYS, TESTIMONIALS_DATA_KEYS } from '../constants.ts'; // Use _KEYS versions
-import { ServiceKeys, TestimonialKeys } from '../types.ts'; // Use _KEYS versions for types
+import { ServiceKeys } from '../types.ts'; // Use _KEYS versions for types
 import { ArrowRightIcon } from '../components/IconComponents.tsx';
 
 const HomePage: React.FC = () => {

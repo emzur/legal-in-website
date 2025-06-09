@@ -54,7 +54,7 @@ const AboutPage: React.FC = () => {
               </ul>
             </div>
             <div className="flex justify-center">
-              <img src="/public/assets/owner.jpeg" alt={t('aboutPage.teamSection.title')} className="rounded-lg shadow-xl object-cover object-top w-full max-w-md h-auto aspect-[4/5]" loading="lazy" />
+              <img src="/assets/owner.jpeg" alt={t('aboutPage.teamSection.title')} className="rounded-lg shadow-xl object-cover object-top w-full max-w-md h-auto aspect-[4/5]" loading="lazy" />
             </div>
           </div>
         </div>

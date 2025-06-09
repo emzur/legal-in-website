@@ -1,16 +1,31 @@
 import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { useTranslation } from 'react-i18next'; // Import useTranslation
+import { useTranslation } from 'react-i18next';
 import PageTitle from '../components/PageTitle.tsx';
-import { SERVICES_DATA_KEYS } from '../constants.ts'; // Use _KEYS version
-import { ServiceKeys } from '../types.ts'; // Use ServiceKeys type
+import { SERVICES_DATA_KEYS } from '../constants.ts';
+import { ServiceKeys } from '../types.ts';
 import { ArrowRightIcon, IconProps } from '../components/IconComponents.tsx';
+import SimpleAccordion from '../components/SimpleAccordion';
 
 const servicesPageHeroImageUrl = 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1920&auto=format&fit=crop';
 
 const ServicesPage: React.FC = () => {
-  const { t } = useTranslation(); // Initialize useTranslation
+  const { t } = useTranslation();
   const location = useLocation();
+
+  // ✅ Wygeneruj accordionData z tłumaczeń
+  const rawAccordionData = t('servicesAccordion', { returnObjects: true }) as Record<
+    string,
+    { title: string; link: string; url: string }[]
+  >;
+
+  const accordionData = Object.entries(rawAccordionData).map(([title, children]) => ({
+    title: t(`${title}`),
+    children: children.map((child) => ({
+      label: child.title,
+      link: child.url,
+    })),
+  }));
 
   useEffect(() => {
     document.title = t('nav.services') + ' - Legal In';
@@ -32,7 +47,14 @@ const ServicesPage: React.FC = () => {
         imageUrl={servicesPageHeroImageUrl}
       />
 
-      <section className="py-16 md:py-24">
+      {/* ✅ Accordion z tłumaczeń */}
+      <section className="py-16">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <SimpleAccordion items={accordionData} />
+        </div>
+      </section>
+
+      {/* <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-16 md:space-y-20">
             {SERVICES_DATA_KEYS.map((serviceKey: ServiceKeys, index: number) => (
@@ -42,7 +64,7 @@ const ServicesPage: React.FC = () => {
                 className={`p-8 md:p-12 rounded-xl shadow-xl flex flex-col md:flex-row items-center gap-8 md:gap-12 ${index % 2 === 0 ? 'bg-lightbg' : 'bg-white'}`}
               >
                 {serviceKey.icon && (
-                  <div className={`flex-shrink-0 p-5 rounded-full ${index % 2 === 0 ? 'bg-primary' : 'bg-primary'}`}>
+                  <div className={`flex-shrink-0 p-5 rounded-full bg-primary`}>
                     {React.cloneElement<IconProps>(serviceKey.icon, { className: `w-16 h-16 text-white` })}
                   </div>
                 )}
@@ -62,7 +84,7 @@ const ServicesPage: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="py-16 md:py-24 bg-primary text-white text-center">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
