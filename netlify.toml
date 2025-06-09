@@ -1,4 +1,9 @@
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
 [[headers]]
   for = "/*"
   [headers.values]
-    Basic-Auth = "demo:haslotestowe"
+    Basic-Auth = "jana:zalogujsiedomnie"

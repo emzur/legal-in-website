@@ -16,7 +16,7 @@ const ServicesPage: React.FC = () => {
   // ✅ Wygeneruj accordionData z tłumaczeń
   const rawAccordionData = t('servicesAccordion', { returnObjects: true }) as Record<
     string,
-    { title: string; link: string; url: string }[]
+    { title: string; url: string }[]
   >;
 
   const accordionData = Object.entries(rawAccordionData).map(([title, children]) => ({
@@ -54,7 +54,7 @@ const ServicesPage: React.FC = () => {
         </div>
       </section>
 
-      {/* <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-16 md:space-y-20">
             {SERVICES_DATA_KEYS.map((serviceKey: ServiceKeys, index: number) => (
@@ -84,7 +84,7 @@ const ServicesPage: React.FC = () => {
             ))}
           </div>
         </div>
-      </section> */}
+      </section>
 
       <section className="py-16 md:py-24 bg-primary text-white text-center">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
