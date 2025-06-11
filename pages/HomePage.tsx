@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { useTranslation } from 'react-i18next'; // Import useTranslation
+import { Trans, useTranslation } from 'react-i18next'; // Import useTranslation
 import ServiceCard from '../components/ServiceCard.tsx';
 import TestimonialCard from '../components/TestimonialCard.tsx';
 import { SERVICES_DATA_KEYS, TESTIMONIALS_DATA_KEYS } from '../constants.ts'; // Use _KEYS versions
@@ -59,7 +59,10 @@ const HomePage: React.FC = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-6">{t('homePage.shortAbout.title')}</h2>
           <p className="text-lg text-darktext max-w-2xl mx-auto mb-8 leading-relaxed">
-            {t('homePage.shortAbout.text')}
+            <Trans
+              i18nKey={t('homePage.shortAbout.text')}
+              components={{ strong: <strong className="font-bold text-primary" /> }}
+            />
           </p>
           <Link
             to="/o-nas"

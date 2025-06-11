@@ -18,6 +18,11 @@ import NotFoundPage from './pages/NotFoundPage.tsx';
 import ServiceCategoryPage from './pages/ServiceCategoryPage';
 import ServiceDetailPage from './pages/ServiceDetailPage';
 import HRSupportPage from './pages/HRSupportPage';
+import LegalizationPage from './pages/LegalizationPage';
+import CompanyRegistrationPage from './pages/CompanyRegistrationPage';
+import BusinessSupportPage from './pages/BusinessSupportPage';
+import AccountingPage from './pages/AccountingPage';
+import HRPayrollPage from './pages/HRPayrollPage';
 
 const AppLayout: React.FC = () => {
   return (
@@ -50,6 +55,11 @@ const App: React.FC = () => {
           <Route path="/uslugi/:categorySlug" element={<ServiceCategoryPage />} />
           <Route path="/uslugi/:categorySlug/:serviceSlug" element={<ServiceDetailPage />} />
           <Route path="/uslugi/hr" element={<HRSupportPage />} />
+          <Route path="/uslugi/legalizacja" element={<LegalizationPage />} />
+          <Route path="/uslugi/rejestracja" element={<CompanyRegistrationPage />} />
+          <Route path="/uslugi/biznes" element={<BusinessSupportPage />} />
+          <Route path="/uslugi/ksiegowosc" element={<AccountingPage />} />
+          <Route path="/uslugi/kadry" element={<HRPayrollPage />} />
           <Route path="dla-kogo-pracujemy" element={<ClientsPage />} />
           <Route path="korzysci" element={<BenefitsPage />} />
           <Route path="opinie" element={<TestimonialsPage />} />

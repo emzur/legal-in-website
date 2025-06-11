@@ -26,7 +26,7 @@ const LanguageSwitcher: React.FC = () => {
         onClick={() => changeLanguage('uk')}
         disabled={i18n.resolvedLanguage === 'uk'}
         className={`px-3 py-1 text-xs sm:text-sm font-medium rounded-md transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 ${i18n.resolvedLanguage === 'uk' ? activeLangButtonStyle : inactiveLangButtonStyle}`}
-        aria-label={t('langSwitcher.uk', 'Zmień język na ukraiński')}
+        aria-label={t('langSwitcher.ua', 'Zmień język na ukraiński')}
         aria-pressed={i18n.resolvedLanguage === 'uk'}
       >
         UA
