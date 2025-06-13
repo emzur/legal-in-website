@@ -6,5 +6,13 @@
     <script src="https://unpkg.com/netlify-cms@2.10.192/dist/netlify-cms.js"></script>
   </head>
   <body>
+    <!-- Ten element musi istnieć, żeby CMS się zainicjował -->
+    <script>
+      window.addEventListener('load', function () {
+        const el = document.createElement('div');
+        el.id = 'nc-root';
+        document.body.appendChild(el);
+      });
+    </script>
   </body>
 </html>
