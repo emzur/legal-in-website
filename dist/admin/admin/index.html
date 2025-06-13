@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <title>Netlify CMS</title>
     <script>
-      // RĘCZNIE wstawiamy #nc-root zanim CMS się załaduje
-      const root = document.createElement('div');
-      root.id = 'nc-root';
-      document.body.appendChild(root);
+      document.addEventListener('DOMContentLoaded', () => {
+        const root = document.createElement('div');
+        root.id = 'nc-root';
+        document.body.appendChild(root);
+
+        const script = document.createElement('script');
+        script.src = "https://unpkg.com/netlify-cms-app@2.15.72/dist/netlify-cms.js";
+        document.body.appendChild(script);
+      });
     </script>
-    <script src="https://unpkg.com/netlify-cms@2.10.192/dist/netlify-cms.js"></script>
   </head>
   <body></body>
 </html>
