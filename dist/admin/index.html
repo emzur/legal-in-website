@@ -2,13 +2,18 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>CMS</title>
+    <title>Netlify CMS</title>
   </head>
   <body>
-    <!-- root element -->
     <script src="https://unpkg.com/netlify-cms-app@2.15.72/dist/netlify-cms.js"></script>
     <script>
-      NetlifyCmsApp.init();
+      window.addEventListener('load', function () {
+        if (typeof NetlifyCmsApp !== 'undefined') {
+          NetlifyCmsApp.init();
+        } else {
+          console.error('NetlifyCmsApp is not defined');
+        }
+      });
     </script>
   </body>
 </html>
