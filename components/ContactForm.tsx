@@ -44,8 +44,11 @@ const ContactForm: React.FC = () => {
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
       newErrors.email = t('contactForm.emailInvalid');
     }
-    if (!formData.message.trim()) newErrors.message = t('contactForm.messageRequired');
-    if (formData.message.trim().length < 10) newErrors.message = t('contactForm.messageMinLength');
+    if (!formData.message.trim()) {
+      newErrors.message = t('contactForm.messageRequired');
+    } else if (formData.message.trim().length < 10) {
+      newErrors.message = t('contactForm.messageMinLength');
+    }
     if (!formData.consent) newErrors.consent = t('contactForm.consentRequired');
     
     setErrors(newErrors);
