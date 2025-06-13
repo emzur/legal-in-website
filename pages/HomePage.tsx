@@ -6,6 +6,7 @@ import TestimonialCard from '../components/TestimonialCard.tsx';
 import { SERVICES_DATA_KEYS, TESTIMONIALS_DATA_KEYS } from '../constants.ts'; // Use _KEYS versions
 import { ServiceKeys } from '../types.ts'; // Use _KEYS versions for types
 import { ArrowRightIcon } from '../components/IconComponents.tsx';
+import Hero from '../components/Hero';
 
 const HomePage: React.FC = () => {
   const { t } = useTranslation(); // Initialize useTranslation
@@ -27,7 +28,11 @@ const HomePage: React.FC = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
+      <Hero />
       <section className="text-white py-24 md:py-40" style={heroBgStyle}>
+        
+        
+        
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-6">
             {t('homePage.hero.title')}

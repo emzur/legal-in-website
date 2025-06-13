@@ -61,10 +61,10 @@ const HRPayrollPage = () => {
         </p>
 
         <img
-  src="/assets/ksiegowosc-1.png"
-  alt={intro.imageAlt1}
-  className="w-full md:w-2/3 mx-auto rounded-lg shadow-md"
-/>
+          src="/assets/ksiegowosc-1.png"
+          alt={intro.imageAlt1}
+          className="w-full md:w-2/3 mx-auto rounded-lg shadow-md"
+        />
 
         <p className="text-darktext whitespace-pre-line">
           <Trans
