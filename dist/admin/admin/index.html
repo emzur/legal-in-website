@@ -3,10 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <title>Netlify CMS</title>
+    <script>
+      // RĘCZNIE wstawiamy #nc-root zanim CMS się załaduje
+      const root = document.createElement('div');
+      root.id = 'nc-root';
+      document.body.appendChild(root);
+    </script>
     <script src="https://unpkg.com/netlify-cms@2.10.192/dist/netlify-cms.js"></script>
   </head>
-  <body>
-    <!-- Ten div jest wymagany przez CMS -->
-    <div id="nc-root"></div>
-  </body>
+  <body></body>
 </html>
