@@ -1,5 +1,3 @@
-local_backend: true
-
 backend:
   name: git-gateway
   branch: main
@@ -10,20 +8,9 @@ public_folder: "/uploads"
 collections:
   - name: "homeHero"
     label: "Strona główna – Hero"
-    files:
-      - file: "src/content/homeHero.json"
-        label: "Hero Sekcja"
-        name: "hero"
-        fields:
-          - label: "Tytuł"
-            name: "title"
-            widget: "string"
-          - label: "Podtytuł"
-            name: "subtitle"
-            widget: "text"
-          - label: "Przycisk: Usługi"
-            name: "ctaServices"
-            widget: "string"
-          - label: "Przycisk: Kontakt"
-            name: "ctaContact"
-            widget: "string"
+    file: "src/content/homeHero.json"
+    fields:
+      - { label: "Tytuł", name: "title", widget: "string" }
+      - { label: "Podtytuł", name: "subtitle", widget: "text" }
+      - { label: "Przycisk: Usługi", name: "ctaServices", widget: "string" }
+      - { label: "Przycisk: Kontakt", name: "ctaContact", widget: "string" }
