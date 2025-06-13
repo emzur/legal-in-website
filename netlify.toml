@@ -1,4 +1,4 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Basic-Auth = "jana:zalogujsiedomnie"
+#    Basic-Auth = "jana:zalogujsiedomnie"
