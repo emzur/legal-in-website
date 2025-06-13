@@ -1,5 +1,4 @@
-
 User-agent: *
 Allow: /
 
-Sitemap: https://example.com/sitemap.xml # Replace with actual URL
+Sitemap: https://legalin.pl/sitemap.xml
