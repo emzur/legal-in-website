@@ -1,29 +1,12 @@
-backend:
-  name: github
-  repo: emzur/legal-in-website
-  branch: main
-  auth_scope: repo
-  client_id: Ov23liZdmeCFvML5Xzws  # <<< Wstaw swój GitHub OAuth Client ID
-
-media_folder: "public/uploads"
-public_folder: "/uploads"
-
 collections:
   - name: "homeHero"
     label: "Strona główna – Hero"
-    file: "src/content/homeHero.json"
-    fields:
-      - { label: "Tytuł", name: "title", widget: "string" }
-      - { label: "Podtytuł", name: "subtitle", widget: "text" }
-      - { label: "Przycisk: Usługi", name: "ctaServices", widget: "string" }
-      - { label: "Przycisk: Kontakt", name: "ctaContact", widget: "string" }
-
-  - name: "about"
-    label: "About Section"
     files:
-      - file: "src/content/about.json"
-        label: "About Content"
-        name: "about_content"
+      - file: "src/content/homeHero.json"
+        label: "Hero content"
+        name: "homeHeroContent"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Content", name: "content", widget: "text" }
+          - { label: "Tytuł", name: "title", widget: "string" }
+          - { label: "Podtytuł", name: "subtitle", widget: "text" }
+          - { label: "Przycisk: Usługi", name: "ctaServices", widget: "string" }
+          - { label: "Przycisk: Kontakt", name: "ctaContact", widget: "string" }
