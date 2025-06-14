@@ -1,3 +1,16 @@
+backend:
+  name: github
+  repo: emzur/legal-in-website
+  branch: main
+  auth_scope: repo
+  client_id: TWÓJ_CLIENT_ID
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+media_library:
+  name: uploadcare
+
 collections:
   - name: "homeHero"
     label: "Strona główna – Hero"
